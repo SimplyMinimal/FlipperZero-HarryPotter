@@ -1,0 +1,15 @@
+App(
+    appid="harry_potter",
+    name="Harry Potter",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="harry_potter_app",
+    cdefines=["APP_HARRY_POTTER"],
+    requires=[
+        "gui",
+    ],
+    stack_size=1 * 1024,
+    order=90,
+	fap_icon="wand.png",
+    fap_category="Misc",
+    fap_icon_assets="assets" ,
+)
